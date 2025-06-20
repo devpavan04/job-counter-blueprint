@@ -1,0 +1,50 @@
+{
+  "port": 9944,
+  "endpoint": "wss://testnet-rpc.tangle.tools",
+  "build-block-mode": "Instant",
+  "allow-unresolved-imports": true,
+  "mock-signature-host": true,
+  "runtime-log-level": 5,
+  "import-storage": {
+    "Sudo": {
+      "Key": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+    },
+    "System": {
+      "Account": [
+        [
+          [
+            "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+          ],
+          {
+            "providers": 2,
+            "data": {
+              "free": "10000000000000000905969664"
+            }
+          }
+        ],
+        [
+          [
+            "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty"
+          ],
+          {
+            "providers": 2,
+            "data": {
+              "free": "10000000000000000905969664"
+            }
+          }
+        ],
+        [
+          [
+            "5FLSigC9HGRKVhB9FiEo4Y3koPsNmBmLJbpXg2mp1hXcS59Y"
+          ],
+          {
+            "providers": 2,
+            "data": {
+              "free": "10000000000000000905969664"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

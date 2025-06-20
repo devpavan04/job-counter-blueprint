@@ -1,0 +1,9 @@
+[package]
+name = "job-counter-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+job-counter-lib = { path = "../job-counter-lib" }
+blueprint-sdk = { workspace = true }
+tokio = { workspace = true }
